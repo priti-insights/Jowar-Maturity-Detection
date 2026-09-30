@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Trained models
+*.pt
+*.pth
+*.keras
+*.h5
+
+# Large datasets
+*.zip
+*.rar
+*.7z
+
+# Environment variables
+.env
+
+# Logs
+*.log
