@@ -35,3 +35,12 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Downloaded datasets
+dataset/raw/
+dataset/processed/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
