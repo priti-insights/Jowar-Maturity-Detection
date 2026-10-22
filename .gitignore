@@ -44,3 +44,31 @@ dataset/processed/
 *.pt
 *.pth
 *.onnx
+
+
+# Node.js dependencies
+node_modules/
+
+# Frontend build output
+dist/
+
+# Local environment files and secrets
+.env.*
+!.env.example
+
+# Generated YOLO datasets and annotations
+yolo/yolo_dataset/
+
+# Training and inference outputs
+runs/
+yolo/runs/
+ui-temp/
+yolo/multi_panicle_review/
+yolo/verification/
+
+# Generated classification crops and metadata
+classification/panicle_crops/
+classification/crop_metadata.csv
+
+# Python-generated cache
+__pycache__/
